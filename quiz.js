@@ -4,7 +4,7 @@ function checkAnswer(){
 
     const selected = document.querySelector("input[name='quiz']:checked")
 const userAnswer = selected.value;
-if(userAnswer === correctAnswer){
+if (userAnswer === correctAnswer){
     feed.textContent =  "Correct! Well done.";
     return;
 
